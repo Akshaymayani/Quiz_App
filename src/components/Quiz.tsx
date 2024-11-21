@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react';
+import  { useState,useEffect } from 'react';
 import Quiz_result from './QuizResult';
 import { quiz_data } from '../data/Quizdata';
 import { QuizTypes } from '../types/QuizTypes';
@@ -33,7 +33,7 @@ function Quiz() {
     }
   }
 
-const reset =()=>{
+const reset= ()=> {
   setshowresult(false);
   setcurrentque(0);
   setclickedoption(null);
